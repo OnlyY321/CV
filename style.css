@@ -32,6 +32,7 @@ nav {
 }
 
 .nav_contact_link {
+  color: white;
   height: 5vh;
   padding: 0.75ch 1.5vw;
   border: 1px solid white;
@@ -73,7 +74,7 @@ nav {
 
 .hero_text {
   font-family: "Anton", sans-serif;
-  font-size: 12vw;
+  font-size: 12.5vw;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -209,32 +210,43 @@ nav {
   position: relative;
 }
 
-.contact_section span {
+.contact_section a {
+  color: white;
   position: absolute;
   cursor: pointer;
+  border: 1px solid white;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.3 ease;
+  padding: 1vw 1.5vw;
 }
 
-.contact_section span:nth-child(1) {
+.contact_section a:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact_section a:nth-child(1) {
   top: 20%;
   left: 15%;
 }
 
-.contact_section span:nth-child(2) {
+.contact_section a:nth-child(2) {
   top: 20%;
   right: 15%;
 }
 
-.contact_section span:nth-child(3) {
+.contact_section a:nth-child(3) {
   top: 75%;
   left: 15%;
 }
 
-.contact_section span:nth-child(4) {
+.contact_section a:nth-child(4) {
   top: 75%;
   right: 15%;
 }
 
-.contact_section span:nth-child(5) {
+.contact_section a:nth-child(5) {
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
